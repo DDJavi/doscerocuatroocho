@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">doscerocuatroocho</string>
+    <string name="tv">tv</string>
+    <string name="score">"Score: "</string>
+    <string name="recordScore">"Record: "</string>
+    <string name="restartButton">RESTART</string>
+    <string name="backButton">UNDO</string>
+    <string name="tipText">Solo un UNDO por jugada!</string>
+    <string name="defaulText">Default</string>
+    <string name="scoreText">Score</string>
+    <string name="playText">Play</string>
+    <string name="logo">logo</string>
+    <string name="name">Name :</string>
+    <string-array name="options">
+        <item>Date</item>
+        <item>User name</item>
+        <item>Score</item>
+    </string-array>
+    <string-array name="filter">
+        <item>&gt;</item>
+        <item>&lt;</item>
+        <item>=</item>
+    </string-array>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#D8C5C5"
+    tools:context=".ScoreDetail">
+
+    <TextView
+        style="@style/detail_titles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DATE" />
+
+    <EditText
+        android:id="@+id/date_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/detail_titles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USER NAME" />
+
+    <EditText
+        android:id="@+id/user_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/detail_titles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCORE" />
+
+    <EditText
+        android:id="@+id/score_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="15dp"
+        android:backgroundTint="#DC2F60"
+        android:onClick="updateChanges"
+        android:text="SAVE CHANGES"
+        app:cornerRadius="40dp" />
+
+</LinearLayout>
